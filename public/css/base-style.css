@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
 //  background-image: linear-gradient(#d8d3b44f, #FFF9E6);
   background-color: #f1ebe8;
   font-family: 'Great Vibes', cursive;
+  margin: 0;
 }
 
 div#title {
@@ -58,11 +58,6 @@ p#title-text {
   text-decoration: underline;
 }
 
-.nav > a:hover {
-  text-decoration: underline;
-  color: blue;
-}
-
 .nav > a {
   position: relative;
   color: #000;
@@ -97,8 +92,9 @@ hr {
 .card {
   margin: auto;
   margin-top: 5%;
-  width: 70%;
-  height: 100%;
+  width: 80%;
+  padding-bottom: 100px;
+  margin-bottom: 5%;
   border-radius: 10px;
 
 
@@ -135,7 +131,7 @@ hr {
 }
 
 #come-celebrate {
-  font-size: 30px;
+  font-size: 2em;
   width: 100%;
   margin-top: 100px;
   margin-left: auto;
@@ -161,11 +157,11 @@ hr {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-  font-family: 'Great Vibes';
-  color: #8e3a2b;
+  color: #c1938a;
 }
 
 .names > p {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 3.5em;
   text-align: center;
   margin-left: auto;
@@ -176,6 +172,7 @@ hr {
 }
 
 .names > p#names-and {
+  font-family: 'Great Vibes';
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2.3em;
