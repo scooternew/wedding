@@ -228,3 +228,13 @@ hr.title-text-divider-2 {
   margin-block-end: 0;
 }
 
+#wedding-image {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#wedding-image > img {
+  width: 25%;
+  border-radius: 100%;
+}
+
