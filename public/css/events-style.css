@@ -131,13 +131,17 @@ hr.title-text-divider-2 {
 
 .events {
   margin: 0;
-  padding-top: 80px
+  padding-top: 80px;
 }
 
 .event {
   margin-bottom: 50px;
   margin-left: 7.5%;
   margin-right: 7.5%;
+  border-left: 7px solid #c1938a;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .event > p {
@@ -148,7 +152,7 @@ hr.title-text-divider-2 {
 p.event-title {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.3em;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
 }
 
 p.event-location, p.event-date, p.event-address, p.event-attire, p.event-notes {
@@ -158,11 +162,9 @@ p.event-location, p.event-date, p.event-address, p.event-attire, p.event-notes {
   padding-bottom: 2px;
 }
 
-.card > * {
-  // animation-name: example;
-  // animation-duration: 1s;
-  // -webkit-animation-name: example;
-  // -webkit-animation-duration: example;
+p.event-notes {
+  padding-top: 20px;
+  padding-bottom: 0;
 }
 
 
