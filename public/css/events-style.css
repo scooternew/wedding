@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+//  background-image: linear-gradient(#d8d3b44f, #FFF9E6);
+  background-color: #f1ebe8;
+  font-family: 'Great Vibes', cursive;
+  margin: 0;
+}
+
+div#title {
+  text-align: center;
+  font-size: 4em;
+  margin-top: 2%;
+}
+
+p#title-text {
+  color: #67655b;
+  text-shadow: 2px 2px rgba(148, 141, 126, 0.6);
+  margin: 0;
+  font-size: 2em;
+}
+
+.nav {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin: auto;
+  margin-top: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-item {
+  float: left;
+  display: inline-block;
+  margin: auto;
+  color: #715655;
+  padding-right: 30px;
+}
+
+.nav-item:last-child {
+  padding-right: 0;
+}
+
+
+.nav-item > a {
+  color: #584a43;
+  text-decoration: none;
+}
+
+.nav-item > a:hover {
+  color: #b77e4d;
+  text-decoration: underline;
+}
+
+.nav > a {
+  position: relative;
+  color: #000;
+}
+
+#nav-items {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.fading-divider { 
+    display:block;
+    border:none;
+    height:1px;
+    background: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#000), to(#FFF9FB));
+}
+
+hr {
+  display: block;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  margin: 0% auto 2px auto;
+}
+
+hr#title-text-divider {
+  display: inline-block;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  width: 20%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+hr.title-text-divider-2 {
+  display: inline-block;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #d0c3b3;
+  width: 20%;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.card {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 80px;
+
+  border-radius: 10px;
+  background-color: #fffdfb;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #827662;
+}
+
+.events {
+  margin: 0;
+  padding-top: 80px
+}
+
+.event {
+  margin-bottom: 50px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.event > p {
+  margin: 0;
+  padding: 0;
+}
+
+p.event-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.3em;
+  padding-bottom: 8px;
+}
+
+p.event-location, p.event-date, p.event-address, p.event-attire, p.event-notes {
+  font-weight: 400;
+  font-size: 0.9em;
+  padding-left: 3px;
+  padding-bottom: 2px;
+}
+
+.card > * {
+  // animation-name: example;
+  // animation-duration: 1s;
+  // -webkit-animation-name: example;
+  // -webkit-animation-duration: example;
+}
+
+
+.card > hr {
+  margin-left: 16%;
+  margin-right: 16%;
+  border-color: #fff6e2;
+}
+
+#come-celebrate {
+  font-size: 2em;
+  width: 100%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+
+#come-celebrate > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+
+.names {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  color: #c1938a;
+}
+
+.names > p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.names > p#names-and {
+  font-family: 'Great Vibes';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.3em;
+}
+
+#date {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 80px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+#date > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#location {
+  font-size: 18px;
+  font-weight: 300;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+#location > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#wedding-image {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#wedding-image > img {
+  width: 25%;
+  border-radius: 100%;
+}
+
