@@ -1,36 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
-//  background-image: linear-gradient(#d8d3b44f, #FFF9E6);
-  background-color: #f1ebe8;
-  font-family: 'Great Vibes', cursive;
+  background-color: #f7f3f3;
   margin: 0;
+}
+
+.top-section {
+  padding-top: 2%;
+  padding-bottom: 1%;
+  background-color: #fffdfb;
+  border-bottom: 2px solid #f3eaea;
 }
 
 div#title {
-  text-align: center;
-  font-size: 4em;
-  margin-top: 2%;
 }
 
 p#title-text {
-  color: #67655b;
-  text-shadow: 2px 2px rgba(148, 141, 126, 0.6);
+  color: #611212;
   margin: 0;
-  font-size: 2em;
+  font-size: 3.7em;
+  font-weight: bold;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
 }
 
 .nav {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  font-size: 1.2em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 10px;
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -40,7 +41,6 @@ p#title-text {
   float: left;
   display: inline-block;
   margin: auto;
-  color: #715655;
   padding-right: 30px;
 }
 
@@ -50,7 +50,7 @@ p#title-text {
 
 
 .nav-item > a {
-  color: #584a43;
+  color: #96867f;
   text-decoration: none;
 }
 
@@ -113,15 +113,56 @@ hr.title-text-divider-2 {
   to {opacity: 1;}
 }
 
+.accommodations-container {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.sheraton-map-container {
+  text-align: center;
+}
+
+.sheraton-map-container > img {
+  width: 60%;
+}
+
+p.hotel-address, p.hotel-phone {
+  font-weight: 400;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+p.accommodations-text {
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-top: 3%;
+}
+
+p.accommodations-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.3em;
+  margin-bottom: 1%;
+}
+
+#hotel-info-container {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  border-left: 7px solid #c1938a;
+  border-right: 7px solid #c1938a;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 .card {
-  width: 80%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding-bottom: 80px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  padding-bottom: 100px;
 
-  border-radius: 10px;
   background-color: #fffdfb;
 
   font-family: 'Raleway', sans-serif;
@@ -129,31 +170,8 @@ hr.title-text-divider-2 {
   color: #827662;
 }
 
-.events {
-  margin: 0;
-  padding-top: 80px;
-}
-
-.event {
-  margin-bottom: 50px;
-  margin-left: 7.5%;
-  margin-right: 7.5%;
-  border-left: 7px solid #c1938a;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.event > p {
-  margin: 0;
-  padding: 0;
-}
-
-p.accommodations-text, p.accommodations-title, p.hotel-address, p.hotel-phonne {
-  font-weight: 400;
-  font-size: 0.9em;
-  padding-left: 3px;
-  margin: 0;
+#marquee-photo {
+  display: inline-block;
 }
 
 .card > hr {
@@ -168,7 +186,7 @@ p.accommodations-text, p.accommodations-title, p.hotel-address, p.hotel-phonne {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 4%;
   display: inline-block;
 }
 
@@ -211,13 +229,14 @@ p.accommodations-text, p.accommodations-title, p.hotel-address, p.hotel-phonne {
 }
 
 #date {
-  font-size: 18px;
-  font-weight: 300;
-  margin-top: 80px;
+  font-size: 1em;
+  margin-top: 4%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 #date > p {
@@ -230,12 +249,13 @@ p.accommodations-text, p.accommodations-title, p.hotel-address, p.hotel-phonne {
 }
 
 #location {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 1em;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 #location > p {
@@ -247,13 +267,12 @@ p.accommodations-text, p.accommodations-title, p.hotel-address, p.hotel-phonne {
   margin-block-end: 0;
 }
 
-#wedding-image {
-  margin-top: 80px;
+#marquee-photo-container {
+  padding-top: 10%;
   text-align: center;
 }
 
-#wedding-image > img {
-  width: 25%;
-  border-radius: 100%;
+#marquee-photo-container > img {
+  width: 60%;
 }
 

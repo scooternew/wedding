@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
-//  background-image: linear-gradient(#d8d3b44f, #FFF9E6);
-  background-color: #f1ebe8;
-  font-family: 'Great Vibes', cursive;
+  background-color: #f7f3f3;
   margin: 0;
+}
+
+.top-section {
+  padding-top: 2%;
+  padding-bottom: 1%;
+  background-color: #fffdfb;
+  border-bottom: 2px solid #f3eaea;
 }
 
 div#title {
-  text-align: center;
-  font-size: 4em;
-  margin-top: 2%;
 }
 
 p#title-text {
-  color: #67655b;
-  text-shadow: 2px 2px rgba(148, 141, 126, 0.6);
+  color: #611212;
   margin: 0;
-  font-size: 2em;
+  font-size: 3.7em;
+  font-weight: bold;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
 }
 
 .nav {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  font-size: 1.2em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 10px;
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -50,7 +50,7 @@ p#title-text {
 
 
 .nav-item > a {
-  color: #584a43;
+  color: #71655e;
   text-decoration: none;
 }
 
@@ -114,14 +114,12 @@ hr.title-text-divider-2 {
 }
 
 .card {
-  width: 80%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding-bottom: 80px;
+  margin-top: 3%;
+  padding-bottom: 100px;
 
-  border-radius: 10px;
   background-color: #fffdfb;
 
   font-family: 'Raleway', sans-serif;
@@ -167,105 +165,8 @@ p.event-notes {
   padding-bottom: 0;
 }
 
-
 .card > hr {
   margin-left: 16%;
   margin-right: 16%;
   border-color: #fff6e2;
 }
-
-#come-celebrate {
-  font-size: 2em;
-  width: 100%;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
-  display: inline-block;
-}
-
-#come-celebrate > p {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-
-.names {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  color: #c1938a;
-}
-
-.names > p {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 3.5em;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-.names > p#names-and {
-  font-family: 'Great Vibes';
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 2.3em;
-}
-
-#date {
-  font-size: 18px;
-  font-weight: 300;
-  margin-top: 80px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-}
-
-#date > p {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-#location {
-  font-size: 18px;
-  font-weight: 300;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-}
-
-#location > p {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-#wedding-image {
-  margin-top: 80px;
-  text-align: center;
-}
-
-#wedding-image > img {
-  width: 25%;
-  border-radius: 100%;
-}
-

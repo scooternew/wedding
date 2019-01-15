@@ -113,6 +113,21 @@ hr.title-text-divider-2 {
   to {opacity: 1;}
 }
 
+
+#card-content {
+  padding-top: 3%;
+}
+
+#card-registry-text {
+}
+
+#card-registry {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  text-align: center;
+  padding-top: 4%;
+}
+
 .card {
   width: 75%;
   margin-left: auto;
@@ -123,10 +138,15 @@ hr.title-text-divider-2 {
 
   background-color: #fffdfb;
 
+  font-size: 1em;
+  font-weight: 300;
   font-family: 'Raleway', sans-serif;
-  font-weight: 200;
   color: #827662;
   min-height: 50%;
+}
+
+#zola-registry-container {
+  padding-top: 2%;
 }
 
 #marquee-photo {
@@ -141,7 +161,7 @@ hr.title-text-divider-2 {
 
 #more-to-come {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 2em;
+  font-si2em;
   width: 100%;
   margin-top: 100px;
   margin-left: auto;

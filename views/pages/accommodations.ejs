@@ -4,42 +4,49 @@
 </head>
 <body>
 
-  
-  <div id="title">
-    <p id="title-text">Allison & Louis</p>
-  </div>
-  <div class="nav">
-    <hr class="title-text-divider-2">
-    <div id="nav-items">
-      <div class="nav-item"><a href='/'>Home</a></div>
-      <div class="nav-item"><a href='/events'>Events</a></div>
-      <div class="nav-item"><a href='/accommodations'>Accommodations</a></div>
-      <div class="nav-item"><a href='/photos'>Photos</a></div>
-      <div class="nav-item"><a href='/registry'>Registry</a></div>
+
+  <div class="top-section">  
+
+    <div id="title">
+      <p id="title-text">Allison & Louis</p>
     </div>
-    <hr class="title-text-divider-2">
+    <div class="nav">
+      <div id="nav-items">
+        <div class="nav-item"><a href='/'>Home</a></div>
+        <div class="nav-item"><a href='/events'>Events</a></div>
+        <div class="nav-item"><a href='/accommodations'>Accommodations</a></div>
+        <div class="nav-item"><a href='/photos'>Photos</a></div>
+        <div class="nav-item"><a href='/registry'>Registry</a></div>
+      </div>
+    </div>
+
   </div>
   <div class="card">
     <div class="card-content">
-      <p class="accommodations-text">
+      <div class="accommodations-container">
 
-        We've reserved a block of rooms at the Sheraton Hotel in downtown Memphis.
-        Please mention the Newman-Kapp wedding when you reserve and use the code NKW
-        to get the discounted rate. These are on a first come, first serve basis. 
+        <div id="sheraton-map-container">
+          <img src="https://maps.googleapis.com/maps/api/staticmap?center=Sheraton+Memphis+Downtown+Hotel&zoom=13&size=800x400&maptype=roadmap&markers=color:red%7C35.151350,-90.050450&key=AIzaSyC9IPpB_LYNDAG22vH7xN2gy6bA9XLePQE"></img>
+        </div>
 
-      </p>
+        <div id="hotel-info-container">
+          <p class="accommodations-title">The Sheraton Hotel</p>
+          <p class="hotel-address">250 N. Main Street</p>
+          <p class="hotel-address">Memphis, TN 38103</p>
+          <p class="hotel-phone">901-527-7300</p>
+        </div>
 
-      <div id="sheraton-map-container">
-        <img src="https://maps.googleapis.com/maps/api/staticmap?center=Sheraton+Memphis+Downtown+Hotel&zoom=13&size=600x300&maptype=roadmap&markers=color:red%7C35.151350,-90.050450&key=AIzaSyC9IPpB_LYNDAG22vH7xN2gy6bA9XLePQE"></img>
+        <p class="accommodations-text">
+
+          We've reserved a block of rooms at the Sheraton Hotel in downtown Memphis.
+          Please mention the Newman-Kapp wedding when you reserve and use the code NKW
+          to get the discounted rate. These are on a first come, first serve basis. 
+
+        </p>
+
+        <p class="accommodations-text">If you prefer to stay elsewhere, there are lots of hotel and Airbnb options. We recommend staying in Midtown or Downtown to be close to all of the events, but please feel free to stay wherever you feel most comfortable.</p>
+
       </div>
-
-      <p class="accommodations-title">The Sheraton Hotel</p>
-      <p class="hotel-address">250 N. Main Street</p>
-      <p class="hotel-address">Memphis, TN 38103</p>
-      <p class="hotel-phone>901-527-7300</p>
-
-      <p>If you prefer to stay elsewhere, there are lots of hotel and Airbnb options. We recommend staying in Midtown or Downtown to be close to all of the events, but please feel free to stay wherever you feel most comfortable.</p>
-
     </div>
   </div>
 </body>
