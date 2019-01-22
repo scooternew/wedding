@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
 
 body {
   background-color: #f7f3f3;
   margin: 0;
+  background-image: url("/assets/white-wall.png");
+  background-repeat: repeat;
 }
 
 .top-section {
-  padding-top: 2%;
+  padding-top: 1%;
   padding-bottom: 1%;
-  background-color: #fffdfb;
+  background-color: #380303;
   border-bottom: 2px solid #f3eaea;
 }
 
@@ -18,12 +22,17 @@ div#title {
 }
 
 p#title-text {
-  color: #611212;
+  color: #f7d0c6;
   margin: 0;
   font-size: 3.7em;
   font-weight: bold;
   font-family: 'Great Vibes', cursive;
   text-align: center;
+}
+
+#nav-selected > a {
+  color: #dbdbdb;
+  text-decoration: underline;
 }
 
 .nav {
@@ -134,6 +143,7 @@ hr.title-text-divider-2 {
   margin-bottom: 50px;
   margin-left: 7.5%;
   margin-right: 7.5%;
+  max-width: 60%;
   border-left: 7px solid #c1938a;
   padding-left: 20px;
   padding-top: 5px;
@@ -147,20 +157,26 @@ hr.title-text-divider-2 {
 
 p.event-title {
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
   font-size: 2.3em;
   padding-bottom: 20px;
 }
 
-p.event-location, p.event-date, p.event-address, p.event-attire, p.event-notes {
-  font-weight: 400;
-  font-size: 0.9em;
-  padding-left: 3px;
-  padding-bottom: 2px;
+p.event-location, p.event-date, p.event-address, p.event-attire {
+  font-size: 1em;
+  padding-left: 3%;
+  padding-bottom: 5px;
+  color: #523c36;
+  font-family: 'Josefin Sans', serif;
 }
 
 p.event-notes {
   padding-top: 20px;
   padding-bottom: 0;
+  font-size: 1.15em;
+  font-family: 'Crimson Text', serif;
+  color: #523c36;
+  line-height: 1.5;
 }
 
 .card > hr {

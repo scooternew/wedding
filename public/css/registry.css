@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 body {
   background-color: #f7f3f3;
   margin: 0;
+  background-image: url("/assets/textured-gray-bg.png");
+  background-repeat: repeat;
 }
 
 .top-section {
-  padding-top: 2%;
+  padding-top: 1%;
   padding-bottom: 1%;
-  background-color: #fffdfb;
+  background-color: #380303;
   border-bottom: 2px solid #f3eaea;
 }
 
@@ -18,7 +21,7 @@ div#title {
 }
 
 p#title-text {
-  color: #611212;
+  color: #f7d0c6;
   margin: 0;
   font-size: 3.7em;
   font-weight: bold;
@@ -119,6 +122,10 @@ hr.title-text-divider-2 {
 }
 
 #card-registry-text {
+  font-family: 'Crimson Text', serif;
+  color: #523c36;
+  font-size: 1.15em;
+  line-height: 1.5;
 }
 
 #card-registry {
