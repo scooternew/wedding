@@ -262,7 +262,7 @@ hr.title-text-divider-2 {
 }
 
 #marquee-photo-container {
-  padding-top: 10%;
+  padding-top: 5%;
   text-align: center;
 }
 
@@ -321,7 +321,7 @@ hr.title-text-divider-2 {
   font-weight: normal;
   color: #564439;
   font-size: 1.1em;
-  text-align: center;
+  text-align: left;
   width: 100%;
   
 }
@@ -340,4 +340,13 @@ hr.title-text-divider-2 {
   margin-left: 2%;
   margin-right: 2%;
   padding-top: 5%;
+}
+
+#main-page-about {
+  padding-top: 5%;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 1.3em;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
 }

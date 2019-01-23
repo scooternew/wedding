@@ -14,7 +14,7 @@ body {
 .top-section {
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: #380303;
+  background-color: #fffdfb;
   border-bottom: 2px solid #f3eaea;
 }
 
@@ -22,7 +22,7 @@ div#title {
 }
 
 p#title-text {
-  color: #f7d0c6;
+  color: #611212;
   margin: 0;
   font-size: 3.7em;
   font-weight: bold;
@@ -183,4 +183,17 @@ p.event-notes {
   margin-left: 16%;
   margin-right: 16%;
   border-color: #fff6e2;
+}
+
+#event-intro-text {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 2em;
+  font-family: 'Crimson Text';
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 5%; 
+  text-align: center;
+  color: #965e5a;
+  font-weight: bold;
 }
