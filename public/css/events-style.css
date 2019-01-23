@@ -164,8 +164,8 @@ p.event-title {
 
 p.event-location, p.event-date, p.event-address, p.event-attire {
   font-size: 1em;
-  padding-left: 3%;
   padding-bottom: 5px;
+  padding-left: 20px;
   color: #523c36;
   font-family: 'Josefin Sans', serif;
 }

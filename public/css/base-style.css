@@ -15,7 +15,7 @@ body {
   padding-top: 1%;
   padding-bottom: 1%;
   // background-image: linear-gradient(#6d1406, #581005, #5a1106);
-  background-color: #380303;
+  background-color: #fffdfb;
   border-bottom: 2px solid #f3eaea;
 }
 
@@ -23,7 +23,7 @@ div#title {
 }
 
 p#title-text {
-  color: #f7d0c6;
+  color: #611212;
   margin: 0;
   font-size: 3.7em;
   font-weight: bold;
@@ -268,8 +268,32 @@ hr.title-text-divider-2 {
 
 #marquee-photo-container > img {
   width: 60%;
-  border-radius: 100%;
-  border: 3px solid #f5f2f2;
+}
+
+#announcement-text-main {
+  width: 100%;
+  font-family: 'Josefin Sans';
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10%;
+  color: #c1938a;
+}
+
+#announcement-text-main-names {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0;
+  font-size: 3.5em;
+  text-shadow: 1px 1px #c7b6b6;
+}
+
+#announcement-text-main-date {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: normal;
 }
 
 .questions {
@@ -297,6 +321,23 @@ hr.title-text-divider-2 {
   font-weight: normal;
   color: #564439;
   font-size: 1.1em;
+  text-align: center;
+  width: 100%;
   
 }
 
+.photos {
+  padding-top: 5%;
+}
+
+.photos-container {
+  text-align: center;
+}
+ 
+.photos-container > img {
+  width: 20%;
+  min-width: 275px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 5%;
+}
