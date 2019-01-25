@@ -350,3 +350,33 @@ hr.title-text-divider-2 {
   margin-left: 7.5%;
   margin-right: 7.5%;
 }
+
+.visiting-memphis-text-container {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  padding-top: 5%;
+}
+
+#visiting-memphis-title {
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.visiting-memphis-text > p {
+  font-size: 1.15em;
+  line-height: 1.5;
+  color: #564439;
+  font-family: 'Crimson Text', serif;
+}
+
+.visitor-site-container {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.visitor-site-title {
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  font-size: 1.5em;
+}

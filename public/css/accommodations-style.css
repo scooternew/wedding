@@ -167,30 +167,34 @@ hr.title-text-divider-2 {
 }
 
 p.hotel-address, p.hotel-phone {
-  font-weight: 400;
-  font-size: 0.9em;
+  font-size: 1em;
   margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #523c36;
+  line-height: 1.5;
 }
 
 p.accommodations-text {
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 1.15em;
   margin-top: 3%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
 }
 
 p.accommodations-title {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.3em;
+  font-weight: bold;
   margin-bottom: 1%;
+  color: #827662;
 }
 
 #hotel-info-container {
-  margin-top: 75px;
-  margin-bottom: 75px;
   border-left: 7px solid #c1938a;
   border-right: 7px solid #c1938a;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: auto;
+  max-width: 450px;
 }
 
 .card {
@@ -203,9 +207,8 @@ p.accommodations-title {
 
   background-color: #fffdfb;
 
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  color: #827662;
+  font-family: 'Crimson Text', sans-serif;
+  color: #523c36;
 }
 
 #marquee-photo {
