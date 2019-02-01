@@ -13,11 +13,12 @@ body {
 .top-section {
   padding-top: 1%; 
   padding-bottom: 1%; 
-  background-color: #380303;
+  background-color: #fffdfb;
   border-bottom: 2px solid #f3eaea;
 }
 
-div#title {
+div#title > a {
+  text-decoration: none;
 }
 
 p#title-text {
@@ -43,16 +44,6 @@ p#title-text {
   display: inline-block;
   text-align: center;
   width: 100%;
-}
-
-.top-section {
-  padding-top: 2%;
-  padding-bottom: 1%;
-  background-color: #fffdfb;
-  border-bottom: 2px solid #f3eaea;
-}
-
-div#title {
 }
 
 p#title-text {
