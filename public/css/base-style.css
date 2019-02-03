@@ -25,9 +25,9 @@ div#title > a {
 }
 
 p#title-text {
-  // BURGUNDY color: #611212;
+  color: #611212;
   // BLUSH color: #c1938a;
-  color: #284c30;  
+  // color: #284c30;  
   margin: 0;
   font-size: 3.7em;
   font-weight: bold;
@@ -292,13 +292,21 @@ hr.title-text-divider-2 {
   // text-shadow: 1px 1px #c7b6b6;
 }
 
-#announcement-text-main-date {
+#announcement-text-main-date, #announcement-text-main-location {
+  font-family: 'Josefin Sans';
   padding-left: 10%;
   padding-right: 10%;
   margin: 0;
-  margin-top: 20px;
-  font-size: 2em;
-  font-weight: normal;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+#announcement-text-main-date {
+  margin-top: 35px;
+}
+
+#announcement-text-main-location {
+  margin-top: 5px;
 }
 
 .questions {
@@ -389,4 +397,16 @@ hr.title-text-divider-2 {
   font-family: 'Josefin Sans';
   font-weight: bold;
   font-size: 1.5em;
+}
+
+.visitor-site-title > a {
+  text-decoration: none;
+}
+
+.visitor-site-location {
+  font-size: 1em;
+  padding-bottom: 3%;
+  line-height: 1.4;
+  color: #523c36;
+  font-family: 'Josefin Sans', serif;
 }
