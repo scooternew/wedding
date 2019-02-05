@@ -127,7 +127,7 @@ hr.title-text-divider-2 {
   to {opacity: 1;}
 }
 
-.card {
+#card {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -145,6 +145,8 @@ hr.title-text-divider-2 {
 
   // box-shadow: 2px 2px 5px #d4d2d2;
   border: 1px solid #d6c4c4;
+
+  visibility: hidden;
 
 }
 
@@ -412,4 +414,36 @@ hr.title-text-divider-2 {
   line-height: 1.4;
   color: #523c36;
   font-family: 'Josefin Sans', serif;
+}
+
+.fin {
+  text-align: center;
+}
+
+.fin > img{
+  width: 10%;
+}
+
+.slideDown {
+animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 0.5s;	
+	-webkit-animation-duration: 0.5s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;
+}
+
+@keyframes slideDown {
+  from {opacity: 0}
+  to {opacity: 1}
+	0% {
+		transform: translateY(-2%);
+	}	
+	100% {
+		transform: translateY(0%);
+	}		
 }

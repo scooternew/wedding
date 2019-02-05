@@ -1,6 +1,18 @@
 <html lang="en">
 <head>
-<link rel="stylesheet" href="/css/base-style.css">
+<link rel="stylesheet" href="/css/base-style-cree.css">
+
+
+<script type="text/javascript">
+
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+    document.getElementById('card').className = 'slideDown';
+  }, 350);
+}, false);
+
+</script>
+
 </head>
 <body>
 
@@ -19,14 +31,22 @@
         <div class="nav-item"><a href='/faq'>FAQ</a></div>
         <div class="nav-item"><a href='/visiting-memphis'>Visiting Memphis</a></div>
       </div>
+
+
     </div>
+
+
   </div>
 
 
-  <div class="card">
+  <div id="card">
 
     <div id="main-page-about">
       <p>Cree!!</p>
+    </div>
+
+    <div class="fin">
+      <img src="/assets/small-divider-fancy.png"></img>
     </div>
 
   </div>
