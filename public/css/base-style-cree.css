@@ -6,18 +6,17 @@
 
 
 body {
-  background-color: #f7f3f3;
+  // background-color: #f7f3f3;
   margin: 0;
-  background-image: url("/assets/white-wall.png");
-  background-repeat: repeat;
+  // background-image: url("/assets/white-wall.png");
+  // background-repeat: repeat;
+  background: linear-gradient(#3a3a4a, #474750);
 }
 
 .top-section {
   padding-top: 1%;
   padding-bottom: 1%;
-  // background-image: linear-gradient(#6d1406, #581005, #5a1106);
-  background-color: #fffdfb;
-  border-bottom: 2px solid #f3eaea;
+  background-color: #d0d0d0;
 }
 
 div#title > a {
@@ -131,21 +130,20 @@ hr.title-text-divider-2 {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1%;
+  margin-top: 3%;
   margin-bottom: 3%;
   padding-bottom: 100px;
   border-radius: 2px;
 
-  background-color: #fffdfb;
+  background-color: #f7f2ec;
 
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   color: #6b5634;
   min-height: 50%;
 
-  // box-shadow: 2px 2px 5px #d4d2d2;
-  border: 1px solid #d6c4c4;
 
+  border: 15px double #e4c2b4;
   visibility: hidden;
 
 }
@@ -428,8 +426,8 @@ hr.title-text-divider-2 {
 animation-name: slideDown;
 	-webkit-animation-name: slideDown;	
 
-	animation-duration: 0.5s;	
-	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.6s;	
+	-webkit-animation-duration: 0.6s;
 
 	animation-timing-function: ease;	
 	-webkit-animation-timing-function: ease;	
@@ -441,7 +439,7 @@ animation-name: slideDown;
   from {opacity: 0}
   to {opacity: 1}
 	0% {
-		transform: translateY(-2%);
+		transform: translateY(-3%);
 	}	
 	100% {
 		transform: translateY(0%);
