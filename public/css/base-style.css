@@ -15,7 +15,7 @@ body {
 .top-section {
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: #f1efee;
+  background-color: #fdf7f4;
   box-shadow: 0 1px 10px #52070752;
   margin: auto;
 }
@@ -26,8 +26,8 @@ div#title > a {
 
 p#title-text {
   color: #611212;
-  // BLUSH color: #c1938a;
-  // color: #284c30;  
+  /* BLUSH color: #c1938a; */
+  /* color: #284c30; */
   margin: 0;
   font-size: 3.7em;
   font-weight: bold;
@@ -137,12 +137,16 @@ hr.title-text-divider-2 {
 
   background-color: #fffdfb;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 200;
   color: #6b5634;
   min-height: 50%;
 
-  border: 15px double #d6cebc;
+  border: 15px double #e4c2b4;
+
+  padding-top: 10%;
+
+  text-align: center;
 
 }
 
@@ -279,7 +283,6 @@ hr.title-text-divider-2 {
   font-family: 'Josefin Sans';
   text-align: center;
   font-weight: bold;
-  padding-top: 10%;
   color: #965e5a;
 }
 
@@ -288,7 +291,7 @@ hr.title-text-divider-2 {
   padding-right: 10%;
   margin: 0;
   font-size: 3.5em;
-  // text-shadow: 1px 1px #c7b6b6;
+  /* text-shadow: 1px 1px #c7b6b6; */
 }
 
 #announcement-text-main-date, #announcement-text-main-location {
@@ -310,7 +313,7 @@ hr.title-text-divider-2 {
 }
 
 .questions {
-  padding-top: 10%;
+  text-align: left;
 }
 
 .question {
@@ -364,16 +367,19 @@ hr.title-text-divider-2 {
   margin-right: 7.5%;
 }
 
+
+/* VISITING MEMPHIS */
+
 .visiting-memphis-text-container {
   margin-left: 7.5%;
   margin-right: 7.5%;
-  padding-top: 5%;
 }
 
 #visiting-memphis-title {
   font-family: 'Josefin Sans';
   font-weight: bold;
   font-size: 2.3em;
+  margin: 0;
 }
 
 .visiting-memphis-text > p {
@@ -422,10 +428,148 @@ hr.title-text-divider-2 {
 }
 
 .card-divider-bottom {
-  text-align: center;
   padding-top: 5%;
 }
 
 .card-divider-bottom > img {
   width: 60%
+}
+
+/* EVENTS */
+
+.events {
+  margin: auto;
+}
+
+.event {
+  margin-bottom: 50px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  max-width: 60%;
+  border-left: 7px solid #c1938a;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.event > p {
+  margin: 0;
+  padding: 0;
+}
+
+p.event-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2.3em;
+  padding-bottom: 20px;
+}
+
+p.event-location, p.event-date, p.event-address, p.event-attire, p.event-hosts {
+  font-size: 1em;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  color: #523c36;
+  font-family: 'Josefin Sans', serif;
+}
+
+p.event-notes {
+  padding-top: 20px;
+  padding-bottom: 0;
+  font-size: 1.15em;
+  font-family: 'Crimson Text', serif;
+  color: #523c36;
+  line-height: 1.5;
+}
+
+#event-intro-text {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 2em;
+  font-family: 'Crimson Text';
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 7.5%; 
+  text-align: center;
+  color: #965e5a;
+  font-weight: bold;
+}
+
+/* ACCOMMODATIONS */
+
+.accommodations-container {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  text-align: center;
+}
+
+#sheraton-map-container {
+  text-align: center;
+  padding-top: 3%; 
+  padding-bottom: 3%; 
+}
+
+#sheraton-map-container > img {
+  min-width: 40%;
+  max-width: 60%;
+}
+
+p.hotel-address, p.hotel-phone {
+  font-size: 1em;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #523c36;
+  line-height: 1.5;
+}
+
+p.accommodations-text {
+  font-weight: 400;
+  font-size: 1.15em;
+  margin-top: 5%; 
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+p.accommodations-text-2 {
+  font-weight: 400;
+  font-size: 1.15em;
+  margin-top: 4%; 
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+p.accommodations-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.3em;
+  font-weight: bold;
+  margin-bottom: 1%; 
+  color: #6b5634;
+}
+
+#hotel-info-container {
+  border-left: 7px solid #c1938a;
+  border-right: 7px solid #c1938a;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+}
+
+
+/* REGISTRY */
+
+#card-registry-text {
+  font-family: 'Crimson Text', serif;
+  color: #523c36;
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+#card-registry {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  text-align: center;
+}
+
+#zola-registry-container {
+  padding-top: 2%;
 }
