@@ -15,7 +15,7 @@ body {
 .top-section {
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: #fdf7f4;
+  background-color: #f1f0f0;
   box-shadow: 0 1px 10px #52070752;
   margin: auto;
 }
@@ -29,9 +29,9 @@ p#title-text {
   /* BLUSH color: #c1938a; */
   /* color: #284c30; */
   margin: 0;
-  font-size: 3.7em;
+  font-size: 2.5em;
   font-weight: bold;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Crimson Text';
   text-align: center;
 }
 
@@ -286,11 +286,33 @@ hr.title-text-divider-2 {
   color: #965e5a;
 }
 
-#announcement-text-main-names {
+#announcement-text-main-allison {
+  font-family: 'Great Vibes', cursive;
   padding-left: 10%;
   padding-right: 10%;
   margin: 0;
-  font-size: 3.5em;
+  font-size: 5.75em;
+  /* text-shadow: 1px 1px #c7b6b6; */
+}
+
+#announcement-text-main-and {
+  font-family: 'Great Vibes', cursive;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 3em;
+  /* text-shadow: 1px 1px #c7b6b6; */
+}
+
+#announcement-text-main-louis {
+  font-family: 'Great Vibes', cursive;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0;
+  font-size: 5.75em;
   /* text-shadow: 1px 1px #c7b6b6; */
 }
 
@@ -305,7 +327,7 @@ hr.title-text-divider-2 {
 }
 
 #announcement-text-main-date {
-  margin-top: 35px;
+  margin-top: 5%;
 }
 
 #announcement-text-main-location {
@@ -427,6 +449,8 @@ hr.title-text-divider-2 {
 
 .visitor-site-divider > img {
   width: 75px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 
 .card-divider-bottom {
@@ -434,7 +458,9 @@ hr.title-text-divider-2 {
 }
 
 .card-divider-bottom > img {
-  width: 60%
+  width: 33%;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
 }
 
 /* EVENTS */
