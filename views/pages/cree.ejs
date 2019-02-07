@@ -3,15 +3,65 @@
 <link rel="stylesheet" href="/css/base-style-cree.css">
 
 
-<script type="text/javascript">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLvXnt4_nmbPsEM-ghIwDRTX0-7ImpLak&callback=initMap"></script>
+    <script type="text/javascript">
+      function initMap() {
 
-document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(function() {
-    document.getElementById('card').className = 'slideDown';
-  }, 250);
-}, false);
+	var broadway = {
+		info: '<strong>Loflin Yard</strong><br>\
+					7 W. Carolina Ave<br>Memphis, TN 38103<br>\
+					<a href="https://goo.gl/maps/sFqMZE5Qn8v">Get Directions</a>',
+		lat: 35.135520, 
+		long: -90.037690
+	};
 
-</script>
+	var belmont = {
+		info: '<strong>The Metal Museum</strong><br>\
+					374 Metal Museum Dr<br>Memphis, TN 38106<br>\
+					<a href="https://goo.gl/maps/rBpijMgBjVE2">Get Directions</a>',
+		lat: 35.125330,
+		long: -90.072330
+	};
+
+	var sheridan = {
+		info: '<strong>Paula and Raiford\'s Disco</strong><br>\r\
+					14 S. Second Street<br>Memphis, TN 38103<br>\
+					<a href="https://goo.gl/maps/7kj4dm9vEXm">Get Directions</a>',
+		lat: 35.144420,
+		long: -90.051420
+	};
+
+	var locations = [
+      [broadway.info, broadway.lat, broadway.long, 0],
+      [belmont.info, belmont.lat, belmont.long, 1],
+      [sheridan.info, sheridan.lat, sheridan.long, 2],
+    ];
+
+	var map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 13,
+		center: new google.maps.LatLng(35.142721, -90.051223),
+	});
+
+	var infowindow = new google.maps.InfoWindow({});
+
+	var marker, i;
+
+	for (i = 0; i < locations.length; i++) {
+		marker = new google.maps.Marker({
+			position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+			map: map
+		});
+
+		google.maps.event.addListener(marker, 'click', (function (marker, i) {
+			return function () {
+				infowindow.setContent(locations[i][0]);
+				infowindow.open(map, marker);
+			}
+		})(marker, i));
+	}
+    }
+
+    </script>
 
 </head>
 <body>
@@ -39,9 +89,11 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 
 
-  <div class="card-frame">
-
   <div class="card">
+    
+
+
+    <div id="map"></div>
   
     <div id="flower-top-left">
       <img src="/assets/flower1.png" />
@@ -56,7 +108,6 @@ document.addEventListener('DOMContentLoaded', function() {
       <img src="/assets/flower4.png" />
     </div>
 
-  </div>
   
   </div>
 

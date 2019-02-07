@@ -121,11 +121,6 @@ hr.title-text-divider-2 {
   margin-left: 10px;
 }
 
-@keyframes example {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
 .card {
   width: 75%;
   margin-left: auto;
@@ -636,4 +631,10 @@ p.accommodations-title {
   top: 85%;
   left: 66%;
   width: 25%;
+}
+
+#map {
+  width: 75%;
+  height: 60%;
+  margin: auto;
 }
