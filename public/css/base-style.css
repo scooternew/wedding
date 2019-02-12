@@ -131,7 +131,7 @@ hr.title-text-divider-2 {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 3%;
   padding-bottom: 100px;
   border-radius: 2px;
@@ -658,4 +658,12 @@ p.accommodations-title {
   width: 75%;
   height: 50%;
   margin: auto;
+}
+
+.made-by {
+  color: #6a040c;
+  margin-top: 5%;
+  font-weight: bold;
+  font-family: 'Raleway';
+  font-size: 0.9em;
 }
