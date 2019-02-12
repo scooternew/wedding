@@ -1,6 +1,67 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" href="/css/base-style.css">
+    <script type="text/javascript">
+      function initMap() {
+
+	var broadway = {
+		info: '<strong>Loflin Yard</strong><br>\
+					7 W. Carolina Ave<br>Memphis, TN 38103<br>\
+					<a href="https://goo.gl/maps/sFqMZE5Qn8v">Get Directions</a>',
+		lat: 35.135520, 
+		long: -90.037690
+	};
+
+	var belmont = {
+		info: '<strong>The Metal Museum</strong><br>\
+					374 Metal Museum Dr<br>Memphis, TN 38106<br>\
+					<a href="https://goo.gl/maps/rBpijMgBjVE2">Get Directions</a>',
+		lat: 35.125330,
+		long: -90.072330
+	};
+
+	var sheridan = {
+		info: '<strong>Paula and Raiford\'s Disco</strong><br>\r\
+					14 S. Second Street<br>Memphis, TN 38103<br>\
+					<a href="https://goo.gl/maps/7kj4dm9vEXm">Get Directions</a>',
+		lat: 35.144420,
+		long: -90.051420
+	};
+
+	var locations = [
+      [broadway.info, broadway.lat, broadway.long, 0],
+      [belmont.info, belmont.lat, belmont.long, 1],
+      [sheridan.info, sheridan.lat, sheridan.long, 2],
+    ];
+
+	var map = new google.maps.Map(document.getElementById('gmap'), {
+		zoom: 13,
+		center: new google.maps.LatLng(35.142721, -90.051223),
+	});
+
+	var infowindow = new google.maps.InfoWindow({});
+
+	var marker, i;
+
+	for (i = 0; i < locations.length; i++) {
+		marker = new google.maps.Marker({
+			position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+			map: map
+		});
+
+		google.maps.event.addListener(marker, 'click', (function (marker, i) {
+			return function () {
+                               infowindow.setContent(locations[i][0]);
+                                infowindow.open(map, marker);
+                        }
+                })(marker, i));
+        }
+    }
+
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLvXnt4_nmbPsEM-ghIwDRTX0-7ImpLak&callback=initMap"></script>
+
 </head>
 <body>
 
@@ -21,6 +82,12 @@
     </div>
   </div>
   <div class="card">
+    <img class="floral-frame-top" src="/assets/floral-frame-top.png" />
+    <img class="floral-frame-bottom" src="/assets/floral-frame-bottom.png" />
+    <img class="flower1" src="/assets/flower1.png" />
+    <img class="flower2" src="/assets/flower2.png" />
+    <img class="flower3" src="/assets/flower3.png" />
+    <img class="flower4" src="/assets/flower4.png" />
     <div class="events">
 
       <p id="event-intro-text">Out of town guests are invited to all of the weekend festivities. Please check your invitation for  specific information about the event(s) to which you are invited.</p>
@@ -64,6 +131,8 @@
       </div> 
 
     </div>
+
+    <div id="gmap"></div>
 
     <div class="card-divider-bottom">
       <img src="/assets/horizontal-divider-fancy-top.png" />
