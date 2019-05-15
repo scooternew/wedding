@@ -226,6 +226,13 @@ hr.title-text-divider-2 {
   font-size: 2.3em;
 }
 
+.love-signature {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #date {
   font-size: 1em;
   margin-top: 4%;
