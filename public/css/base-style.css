@@ -500,7 +500,7 @@ p.event-title {
   padding-bottom: 20px;
 }
 
-p.event-location, p.event-date, p.event-address, p.event-attire, p.event-hosts {
+p.event-location, p.event-date, p.event-address, p.event-attire, p.event-hosts, p.event-time {
   font-size: 1em;
   padding-bottom: 5px;
   padding-left: 20px;
